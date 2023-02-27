@@ -1,0 +1,93 @@
+  h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 550px; 
+  font-size: 60px;
+}
+
+ button {
+  width: 90px;
+  height: 70px;
+  justify-content: center;
+  align-items: center; 
+  padding: 90px;
+  background-color: rgb(172, 161, 161);
+  cursor: pointer;
+  }
+
+button:hover{
+  opacity: 0.5;
+}
+
+.hidden{
+  visibility: hidden;
+}   
+ 
+
+body {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 300px;
+  width: 750px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4px 0;
+}
+
+ .square, 
+.circle {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+}
+
+.square {
+  background-color: red;
+}
+
+.square:hover {
+  transform: translateY(-20px);
+}
+
+.circle {
+  background-color: purple;
+  border-radius: 50%;
+}
+.circle:hover {
+  transform: translateY(-30px);
+}
+.triangle {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-right: 90px solid transparent;
+  border-bottom: 200px solid green;
+  border-left: 90px solid transparent;
+}
+.triangle:hover {
+  transform: translateY(-50px);
+}
+button {
+  padding: 12px;
+  background-color: rgb(172, 161, 161);
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.hidden {
+  visibility: hidden;
+}
